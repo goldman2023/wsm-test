@@ -1,0 +1,176 @@
+/*Global Styles*/
+
+body {
+    font-size: 26px;
+}
+
+section {
+    padding: 90px 0;
+}
+
+/*Header Section*/
+
+header {
+    background-color: #0c0c0c;
+}
+
+.navbar-brand {
+    font-size: 51px;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-toggler i {
+    font-size: 67px;
+    color: #fff;
+}
+
+.ad-intro h6 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/*Main Section*/
+
+.hero-section {
+    background: #000000 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 77% 99%, 0% 90%);
+
+    padding: 120px 0 140px 0;
+}
+
+.hero-section .hero-img {
+    position: absolute;
+    opacity: 0.4;
+    width: 1000px;
+    top: -45%;
+    left: -300px;
+}
+
+.title{
+    font-size: 95px;
+    color: #fff;
+    font-weight: 900;
+    z-index: 2;
+    position: relative;
+}
+.subtitle {
+    font-size: 34px;
+    color: #C4C4C4;
+}
+
+.specs-section h2 {
+    font-size: 72px;
+    color: #BCBCBC;
+    text-align: center;
+    font-weight: 900;
+}
+
+.specs-section .spec-item .item-number {
+    color: #9B9B9B;
+    font-size: 37px;
+    font-weight: 800;
+}
+
+
+.specs-section .spec-item .item-title {
+    color: #343434;
+    font-size: 29px;
+    font-weight: 900;
+}
+
+.specs-section .spec-item .line {
+    width: 100px;
+    height: 10px;
+    background-color: #ff6200;
+    margin: 30px 0;
+}
+
+.description-section {
+    background: transparent linear-gradient(179deg, #000000 0%, #2E2E2E 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    color: #fff;
+}
+
+.description-section:last-child {
+    background: linear-gradient(180deg, #000000 0%, #000000 55%, #0000004D 100%), url("./bg-image.png") no-repeat center center / cover;
+    border: 1px solid #707070;
+}
+
+.description-section h3 {
+    color: #F37421;
+    font-size: 42px;
+}
+
+.gallery-item {
+    background: transparent linear-gradient(180deg, #000000 0%, #403F3F 100%) 0% 0% no-repeat padding-box;
+    border: 2px solid #B4B2B2;
+}
+
+.specific-item {
+    background: #1C1C1C 0% 0% no-repeat padding-box;
+    overflow: hidden;
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 1;
+    display: flex;
+}
+
+.specific-item img {
+    position: absolute;
+    width: 120%;
+    left: -120px;
+    bottom: -120px;
+    opacity: 0.39;
+}
+
+.specific-item p {
+    z-index: 1;
+    position: relative;
+}
+
+.specific-item .number {
+    color: #F37421;
+}
+
+/*Footer Section*/
+
+footer {
+    background: #080808;
+    margin-top: -2px;
+}
+
+footer p {
+    color: #666666;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 992px) {
+    .gallery-item.specific-item p {
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 51px;
+    }
+    .hero-section .hero-img {
+        width: 700px;
+        top: -10%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .gallery-item.specific-item p {
+        font-size: 20px;
+        margin: 0;
+    }
+}
